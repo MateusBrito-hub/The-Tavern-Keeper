@@ -5,7 +5,7 @@ export interface ICharacter {
 	race: string
 	background: string
 	alignment: string
-	age: string
+	age: number
 	height: number
 	weight: number
 	eyes: string
