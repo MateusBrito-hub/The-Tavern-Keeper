@@ -2,6 +2,6 @@ export interface IPlayer {
 	id: number
 	name: string
 	surname: string
-	mail: string
+	email: string
 	password: string
 }
