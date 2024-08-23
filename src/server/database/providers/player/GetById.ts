@@ -13,7 +13,6 @@ export const getById = async (id: number) : Promise<IPlayer | Error> => {
         
 		return new Error('Error when querying records');
 	} catch (error) {
-		console.log(error);
 		return new Error('Error when querying records');
 	}
 };
