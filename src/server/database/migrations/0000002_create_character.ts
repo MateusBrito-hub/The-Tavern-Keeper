@@ -10,9 +10,10 @@ export async function up(knex: Knex) {
 			table.string('classLevel').notNullable();
 			table.string('race').notNullable();
 			table.string('background').notNullable();
+			table.string('alignment').notNullable();
 			table.integer('age').notNullable();
 			table.decimal('height').notNullable();
-			table.decimal('weigth').notNullable();
+			table.decimal('weight').notNullable();
 			table.string('eyes').notNullable();
 			table.string('skin').notNullable();
 			table.string('hair').notNullable();
