@@ -12,9 +12,14 @@ router.delete('/:id',
 router.get('/',
 	CharacterController.getAllValidation,
 	CharacterController.getAll);
+	
+router.get('/player/:player_name',
+	CharacterController.getCharacterByPlayerNameValidation,
+	CharacterController.getCharacterByPlayerName);
 router.get('/:id',
 	CharacterController.getByIdValidation,
 	CharacterController.getById);
+
 router.put('/:id',
 	CharacterController.updateByIdValidation,
 	CharacterController.updateById);
