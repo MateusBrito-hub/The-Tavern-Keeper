@@ -3,7 +3,7 @@ import { validation } from '../../shared/middlewares';
 import { StatusCodes } from 'http-status-codes';
 import * as yup from 'yup';
 import { IPlayer } from '../../database/models';
-import { PlayerProvider } from '../../database/providers/player';
+import { PlayerProvider } from '../../database/providers';
 
 interface IBodyProps extends Omit<IPlayer, 'id'> { }
 

@@ -3,7 +3,7 @@ import { validation } from '../../shared/middlewares';
 import { StatusCodes } from 'http-status-codes';
 import * as yup from 'yup';
 import { ICharacter } from '../../database/models';
-import { CharacterProvider } from '../../database/providers/character';
+import { CharacterProvider } from '../../database/providers';
 
 interface IBodyProps extends Omit<ICharacter, 'id'> { }
 

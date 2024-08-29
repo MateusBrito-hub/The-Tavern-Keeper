@@ -3,7 +3,7 @@ import * as yup from 'yup';
 import { validation } from '../../shared/middlewares';
 import { StatusCodes } from 'http-status-codes';
 import { ICharacter } from '../../database/models';
-import { CharacterProvider } from '../../database/providers/character';
+import { CharacterProvider } from '../../database/providers';
 
 interface IParamsProps {
     id?: number,

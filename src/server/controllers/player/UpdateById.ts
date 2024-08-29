@@ -3,7 +3,7 @@ import * as yup from 'yup';
 import { validation } from '../../shared/middlewares';
 import { StatusCodes } from 'http-status-codes';
 import { IPlayer } from '../../database/models';
-import { PlayerProvider } from '../../database/providers/player';
+import { PlayerProvider } from '../../database/providers';
 
 interface IParamsProps {
     id?: number,
