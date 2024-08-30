@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { CharacterLoreController } from '../controllers';
+import { CharacterLoreController } from '../../controllers';
 
 const router = Router();
 

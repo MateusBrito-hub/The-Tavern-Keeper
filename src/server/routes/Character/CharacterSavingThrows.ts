@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { CharacterSavingThrowsController } from '../controllers';
+import { CharacterSavingThrowsController } from '../../controllers';
 
 const router = Router();
 

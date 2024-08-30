@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { CharacterStatusController } from '../controllers';
+import { CharacterStatusController } from '../../controllers';
 
 const router = Router();
 

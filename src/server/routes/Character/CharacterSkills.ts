@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { CharacterSkillsController } from '../controllers';
+import { CharacterSkillsController } from '../../controllers';
 
 const router = Router();
 
