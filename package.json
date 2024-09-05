@@ -13,6 +13,7 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
+		"cors": "^2.8.5",
 		"dotenv": "^16.4.5",
 		"express": "^4.18.2",
 		"http-status-codes": "^2.3.0",
@@ -22,6 +23,7 @@
 		"yup": "^1.4.0"
 	},
 	"devDependencies": {
+		"@types/cors": "^2.8.17",
 		"@types/express": "^4.17.21",
 		"@types/pg": "^8.11.2",
 		"@typescript-eslint/eslint-plugin": "^7.0.2",
