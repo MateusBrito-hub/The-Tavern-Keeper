@@ -4,6 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
+		"init": "npm i && cd ./src/views && npm i",
 		"start": "ts-node-dev ./src/index.ts",
 		"migrate": "knex --knexfile ./src/server/database/knex/Environment.ts migrate:latest && knex --knexfile ./src/server/database/knex/Environment.ts seed:run",
 		"rollback": "knex --knexfile ./src/server/database/knex/Environment.ts migrate:rollback",
