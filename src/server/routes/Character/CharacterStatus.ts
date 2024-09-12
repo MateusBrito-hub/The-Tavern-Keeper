@@ -9,9 +9,6 @@ router.post('/',
 router.delete('/:id',
 	CharacterStatusController.deleteByIdValidation,
 	CharacterStatusController.deteleById);
-router.get('/',
-	CharacterStatusController.getAllValidation,
-	CharacterStatusController.getAll);
 router.get('/:id',
 	CharacterStatusController.getByIdValidation,
 	CharacterStatusController.getById);
