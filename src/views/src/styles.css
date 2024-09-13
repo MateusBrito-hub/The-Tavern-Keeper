@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	border-radius: 0.5;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root {
+	--primary-color: #7a32cd;
+	--secondary-color: #ab70f0;
+	--accent-color: #cd7a32;
+	--denial-color: #cd3238;
+	--accept-color: #85cd32;
+	--background-color: #f0f8ff;
+	--text-color: #09090f;
+
+}
